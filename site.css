@@ -1,0 +1,50 @@
+
+/*Pulse Verification Layout Page */
+
+.hide-pv-question-div{display:none;}
+.show-pv-question-div { display: block; }
+
+.pv-layout-question-option-selected { 
+    position: relative; 
+    padding: 0.45rem 1.25rem; 
+    margin-bottom: 1rem; 
+    border: 1px solid transparent; 
+    border-radius: .95rem; 
+    color: #fff; 
+    background-color: #6b913e; 
+    border-color: #C5C6C8; 
+    text-align: center; 
+    width: 290px; 
+    height: 40px; 
+    margin-left: 245px; 
+    cursor:pointer;
+}
+
+.pv-layout-question-option { 
+    position: relative; 
+    padding: 0.45rem 1.25rem; 
+    margin-bottom: 1rem; 
+    border: 1px solid transparent; 
+    border-radius: .95rem; 
+    color: #004085;
+    border-color: #C5C6C8; 
+    text-align: center; 
+    width: 290px; 
+    height: 40px; 
+    margin-left: 245px; 
+    cursor:pointer;
+}
+
+.pv-layout-validation-pos { text-align: center; margin-top: -9px; }
+
+
+@media (max-width: 767px) { .pv-layout-question-option-selected { margin-left: 0px;width:100%; }
+    .pv-layout-question-option { margin-left: 0px; width: 100%; }
+    .pv-layout-validation-pos { margin-top: -13px; }
+}
+
+@media (min-width: 1600px) {
+    .pv-layout-question-option-selected { width: 350px; height: 40px; margin-left: 32%; }
+    .pv-layout-question-option { width: 350px; height: 40px; margin-left: 32%; }
+}
+
